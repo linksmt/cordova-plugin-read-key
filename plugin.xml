@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="it.linksmt.cordova.plugin.ReadKey"
+        version="0.7.0">
+
+  <name>Read-key</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/readkey.js" target="js/readkey.js"/>
+
+  <js-module src="www/readkey.js" name="readkey">
+    <clobbers target="readkey" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="ReadKey">
+        <param name="android-package" value="it.linksmt.cordova.plugin.ReadKey"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/readkey.java" target-dir="src/it/linksmt/cordova/plugin/"/>
+  </platform>
+
+  <platform name="ios">
+    
+    <config-file target="config.xml" parent="/widget">
+      <feature name="ReadKey">
+        <param name="ios-package" value="HWPReadKey" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/HWPReadKey.h" target-dir="ReadKeyPlugin"/>
+    <source-file src="src/ios/HWPReadKey.m" target-dir="ReadKeyPlugin"/>
+  </platform>
+
+  <platform name="wp7">
+    <source-file src="src/wp7/ReadKey.cs"/>
+  </platform>
+
+</plugin>
