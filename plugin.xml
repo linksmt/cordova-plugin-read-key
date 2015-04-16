@@ -12,18 +12,18 @@
   <asset src="www/readkey.js" target="js/readkey.js"/>
 
   <js-module src="www/readkey.js" name="readkey">
-    <clobbers target="ReadKey" />
+    <clobbers target="readkey" />
   </js-module>
 
   <platform name="android">
 
     <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="ReadKey">
+      <feature name="readkey">
         <param name="android-package" value="it.linksmt.cordova.plugin.ReadKey"/>
       </feature>
     </config-file>
 
-    <source-file src="src/android/ReadKey.java" target-dir="src/it/linksmt/cordova/plugin/"/>
+    <source-file src="src/android/readkey.java" target-dir="src/it/linksmt/cordova/plugin/"/>
   </platform>
 
   <platform name="ios">
