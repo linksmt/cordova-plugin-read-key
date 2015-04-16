@@ -23,7 +23,7 @@
       </feature>
     </config-file>
 
-    <source-file src="src/android/readkey.java" target-dir="src/it/linksmt/cordova/plugin/"/>
+    <source-file src="src/android/ReadKey.java" target-dir="src/it/linksmt/cordova/plugin/"/>
   </platform>
 
   <platform name="ios">
