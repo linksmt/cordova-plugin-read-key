@@ -2,6 +2,11 @@
 
 module.exports = {
     read: function (name, successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "ReadKey", "read");
+        try {
+			cordova.exec(successCallback, errorCallback, "readkey", "read", []);
+		}catch(e)
+		{
+			alert(e.message);
+		}
     }
 };
