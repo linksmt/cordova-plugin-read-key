@@ -12,7 +12,7 @@
   <asset src="www/readkey.js" target="js/readkey.js"/>
 
   <js-module src="www/readkey.js" name="readkey">
-    <clobbers target="readkey" />
+    <clobbers target="ReadKey" />
   </js-module>
 
   <platform name="android">
