@@ -6,7 +6,7 @@ import org.apache.cordova.*;
 public class ReadKey extends CordovaPlugin {
 
     @Override
-    public boolean execute(String action, CallbackContext callbackContext) {
+    public boolean execute(String action, CallbackContext callbackContext) throws JSONException {
 
         if (action.equals("read")) {
 
