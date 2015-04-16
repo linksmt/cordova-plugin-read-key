@@ -7,9 +7,10 @@ import org.json.JSONException;
 
 public class readkey extends CordovaPlugin {
 
-    @Override
-    public boolean execute(String action, CallbackContext callbackContext) throws JSONException {
 
+	@Override
+	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+ 
         if (action.equals("read")) {
 
             String key = "matteo123";
