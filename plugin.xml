@@ -19,7 +19,7 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="readkey">
-        <param name="android-package" value="it.linksmt.cordova.plugin.ReadKey"/>
+        <param name="android-package" value="it.linksmt.cordova.plugin.readkey"/>
       </feature>
     </config-file>
 
@@ -39,7 +39,7 @@
   </platform>
 
   <platform name="wp7">
-    <source-file src="src/wp7/ReadKey.cs"/>
+    <source-file src="src/wp7/readkey.cs"/>
   </platform>
 
 </plugin>

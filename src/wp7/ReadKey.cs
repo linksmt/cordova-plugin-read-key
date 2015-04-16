@@ -3,7 +3,7 @@ using WP7CordovaClassLib.Cordova.Commands;
 
 namespace Cordova.Extension.Commands
 {
-    public class ReadKey : BaseCommand
+    public class readkey : BaseCommand
     {
         public void read()
         {

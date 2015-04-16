@@ -3,7 +3,7 @@ package it.linksmt.cordova.plugin;
 import org.apache.cordova.*;
 
 
-public class ReadKey extends CordovaPlugin {
+public class readkey extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, CallbackContext callbackContext) throws JSONException {
