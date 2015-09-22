@@ -41,5 +41,7 @@
   <platform name="wp7">
     <source-file src="src/wp7/readkey.cs"/>
   </platform>
-
+  <platform name="wp8">
+    <source-file src="src/wp8/readkey.cs"/>
+  </platform>
 </plugin>
