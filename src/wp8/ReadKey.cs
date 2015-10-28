@@ -1,5 +1,5 @@
-using WP7CordovaClassLib.Cordova;
-using WP7CordovaClassLib.Cordova.Commands;
+using WP8CordovaClassLib.Cordova;
+using WP8CordovaClassLib.Cordova.Commands;
 
 namespace Cordova.Extension.Commands
 {
