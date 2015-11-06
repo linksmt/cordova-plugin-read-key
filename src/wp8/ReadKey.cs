@@ -1,7 +1,7 @@
 using WPCordovaClassLib.Cordova;
 using WPCordovaClassLib.Cordova.Commands;
 
-namespace Cordova.Extension.Commands
+namespace WPCordovaClassLib.Cordova.Commands
 {
     public class readkey : BaseCommand
     {
