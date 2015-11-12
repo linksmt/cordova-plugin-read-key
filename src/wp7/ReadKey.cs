@@ -5,7 +5,7 @@ namespace Cordova.Extension.Commands
 {
     public class readkey : BaseCommand
     {
-        public void read()
+		  public void read(object inversionOfControl)
         {
             string key = "matteo123";
             PluginResult result = new PluginResult(PluginResult.Status.OK, key);
