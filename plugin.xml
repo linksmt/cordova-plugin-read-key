@@ -40,8 +40,21 @@
 
   <platform name="wp7">
     <source-file src="src/wp7/readkey.cs"/>
+	<config-file target="config.xml" parent="/*">
+    <feature name="readkey">
+        <param name="wp-package" value="readkey" />
+    </feature>
+   </config-file>
   </platform>
   <platform name="wp8">
+  <config-file target="config.xml" parent="/*">
+    <feature name="readkey">
+        <param name="wp-package" value="readkey" />
+    </feature>
+   </config-file>
+  
     <source-file src="src/wp8/readkey.cs"/>
+	
+	
   </platform>
 </plugin>
