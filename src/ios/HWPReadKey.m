@@ -12,7 +12,7 @@
                                resultWithStatus:CDVCommandStatus_OK
                                messageAsString:key];
 
-    [self success:result callbackId:callbackId];
+    [self.commandDelegate sendPluginResult:result callbackId:callbackId];
 }
 
 @end
