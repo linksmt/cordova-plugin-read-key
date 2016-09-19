@@ -1,5 +1,4 @@
-using WPCordovaClassLib.Cordova;
-using WPCordovaClassLib.Cordova.Commands;
+using System;
 
 namespace WPCordovaClassLib.Cordova.Commands
 {
@@ -13,3 +12,4 @@ namespace WPCordovaClassLib.Cordova.Commands
         }
     }
 }
+
