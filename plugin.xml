@@ -59,7 +59,7 @@
   </platform>
    <!-- windows -->
     <platform name="windows">
-        <js-module src="src/windows/ReadKeyProxy.js" name="readkeyProxy">
+        <js-module src="src/windows/ReadKeyProxy.js" name="ReadKeyProxy">
             <merges target="" />
         </js-module>
     </platform>
