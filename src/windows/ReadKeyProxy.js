@@ -1,5 +1,4 @@
-var cordova = require('cordova'),
-    readkey= require('./readkey');
+var readkey= require('./readkey');
 
 module.exports = {
 
