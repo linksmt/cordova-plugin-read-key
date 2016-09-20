@@ -5,4 +5,4 @@ module.exports = {
 		}
 };
 
-require("cordova/exec/proxy").add("readkey", module.exports);
+require("cordova/exec/proxy").add("ReadKey", module.exports);
